@@ -93,12 +93,12 @@ nn.train(X, y, epochs=10000)
 ```python
 Enter the number of hidden layer neurons: 5
 ```
-### Training Progress
+### 2.Training Progress
 Displays the final loss after training:
 ```python
 End of Training - Total Error (Loss): 0.001234
 ```
-### Visualizations
+### 3.Visualizations
 
 #### Before Training
 The network with random weights and biases.

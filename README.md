@@ -51,15 +51,15 @@ Draws the neural network's architecture with weights and biases displayed on the
 ## 2. Visualization
 The network's structure is visualized using networkx and matplotlib. Key features include:
 
--Edges labeled with weights.
--Nodes annotated with their bias values.
--Separate graphs for the network before and after training.
+- Edges labeled with weights.
+- Nodes annotated with their bias values.
+- Separate graphs for the network before and after training.
 
 # Dataset
 The hardcoded dataset (X and y) represents a simple mapping:
 
--Inputs (X): 4 examples with 4 features each.
--Outputs (y): 4 examples with 2 output values each.
+- Inputs (X): 4 examples with 4 features each.
+- Outputs (y): 4 examples with 2 output values each.
 
 Example:
 X = [[1, 0, 0, 1], [0, 1, 1, 0], [1, 1, 0, 1], [0, 0, 1, 1]]
@@ -97,10 +97,10 @@ The network with random weights and biases.
 The network with updated weights and biases reflecting learning.
 
 # Future Improvements
--Support for additional activation functions (e.g., ReLU, tanh).
--Integration with larger and more complex datasets.
--Add support for multiple hidden layers.
--Export network parameters (weights and biases) to a file for reuse.
+- Support for additional activation functions (e.g., ReLU, tanh).
+- Integration with larger and more complex datasets.
+- Add support for multiple hidden layers.
+- Export network parameters (weights and biases) to a file for reuse.
 
 # Acknowledgments
 This project is designed to demonstrate the basics of neural network implementation and visualization in Python. It can be extended for more advanced applications.

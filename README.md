@@ -102,10 +102,11 @@ End of Training - Total Error (Loss): 0.001234
 
 #### Before Training
 The network with random weights and biases.
+![Neural Network Workflow](Figure_1.png)
 
 #### After Training
 The network with updated weights and biases reflecting learning.
-
+![Neural Network Workflow](Figure_2.png)
 # Future Improvements
 - Support for additional activation functions (e.g., ReLU, tanh).
 - Integration with larger and more complex datasets.

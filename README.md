@@ -10,11 +10,15 @@ This project implements a simple multi-layer perceptron (MLP) neural network fro
 ## Usage
 Requirements
 Ensure you have Python installed along with the following libraries:
-
+```python
 numpy
+```
+```python
 matplotlib
+```
+```python
 networkx
-
+```
 ### Install the required libraries using:
 ```python
 pip install numpy matplotlib networkx
@@ -23,9 +27,9 @@ pip install numpy matplotlib networkx
 ## Run the Code
 Specify the Number of Neurons in the Hidden Layer:
 Upon running, you will be prompted to input the number of neurons for the hidden layer:
-
+```python
 Enter the number of hidden layer neurons:
-
+```
 Enter a positive integer based on your requirements.
 
 ## Training and Visualization
@@ -68,32 +72,32 @@ Example:
 ```python
 X = [[1, 0, 0, 1], [0, 1, 1, 0], [1, 1, 0, 1], [0, 0, 1, 1]]
 y = [[0, 0], [0, 1], [1, 0], [1, 1]]
-
+```
 # Customization
 
 - ### Hidden Layer Size:
-Modify the hidden layer size dynamically via user input.
+  Modify the hidden layer size dynamically via user input.
 
 - ### Learning Rate:
-Adjust the learning rate in the NeuralNetwork constructor:
+  Adjust the learning rate in the NeuralNetwork constructor:
 ```python
 nn = NeuralNetwork(input_size=4, hidden_size=hidden_size, output_size=2, learning_rate=0.1)
-
+```
 - ### Training Epochs:
-Change the number of training iterations:
+  Change the number of training iterations:
 ```python
 nn.train(X, y, epochs=10000)
-
+```
 # Example Output
 ### 1.Prompt for Hidden Layer Size:
 ```python
 Enter the number of hidden layer neurons: 5
-
+```
 ### Training Progress
 Displays the final loss after training:
 ```python
 End of Training - Total Error (Loss): 0.001234
-
+```
 ### Visualizations
 
 #### Before Training

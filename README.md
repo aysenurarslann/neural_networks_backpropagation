@@ -17,7 +17,7 @@ networkx
 
 ### Install the required libraries using:
 ```python
-pip install numpy matplotlib networkx
+pip install numpy matplotlib networkx ```
 
 ## Run the Code
 Specify the Number of Neurons in the Hidden Layer:
